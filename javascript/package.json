@@ -1,0 +1,10 @@
+{
+  "name": "onomeo-examples",
+  "private": true,
+  "type": "module",
+  "description": "Runnable examples for the onomeo API",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.68.0"
+  }
+}
