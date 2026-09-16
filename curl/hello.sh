@@ -1,7 +1,7 @@
 #!/bin/sh
 # One question, one answer.
 #
-#   export ONOMEO_API_KEY="ac-..."
+#   export ONOMEO_API_KEY="sk-onomeo-..."
 #   sh hello.sh
 
 curl -s https://onomeo.com/v1/chat/completions \

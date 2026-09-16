@@ -22,7 +22,7 @@ curl/         四条命令，无需安装任何依赖
 ## 二、设置密钥
 
 ```bash
-export ONOMEO_API_KEY="ac-..."          # Windows PowerShell：$env:ONOMEO_API_KEY="ac-..."
+export ONOMEO_API_KEY="sk-onomeo-..."          # Windows PowerShell：$env:ONOMEO_API_KEY="sk-onomeo-..."
 ```
 
 单模型示例还支持可选的 `ONOMEO_MODEL`，用于指定模型。
@@ -72,7 +72,7 @@ sh curl/hello.sh                        # 无需安装
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="ac-...", base_url="https://onomeo.com/v1")
+client = OpenAI(api_key="sk-onomeo-...", base_url="https://onomeo.com/v1")
 ```
 
 ## 额度

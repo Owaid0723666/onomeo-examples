@@ -25,7 +25,7 @@ No card, no trial, no invoice.
 ## 2. Point the examples at it
 
 ```bash
-export ONOMEO_API_KEY="ac-..."      # Windows PowerShell: $env:ONOMEO_API_KEY="ac-..."
+export ONOMEO_API_KEY="sk-onomeo-..."      # Windows PowerShell: $env:ONOMEO_API_KEY="sk-onomeo-..."
 ```
 
 The single-model examples also take an optional `ONOMEO_MODEL` to run against a
@@ -76,7 +76,7 @@ follow the OpenAI shape, so any OpenAI client works by changing `base_url`:
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="ac-...", base_url="https://onomeo.com/v1")
+client = OpenAI(api_key="sk-onomeo-...", base_url="https://onomeo.com/v1")
 ```
 
 ## Credits

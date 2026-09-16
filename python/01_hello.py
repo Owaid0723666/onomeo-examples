@@ -1,7 +1,7 @@
 """The smallest request: one question, one answer.
 
     pip install openai
-    export ONOMEO_API_KEY="ac-..."
+    export ONOMEO_API_KEY="sk-onomeo-..."
     python 01_hello.py
 """
 
