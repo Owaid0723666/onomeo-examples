@@ -56,10 +56,6 @@ sh curl/hello.sh                        # 无需安装
 其中适合写成命令行单条命令的四个放在 `curl/` 下：`hello.sh`、`stream.sh`、
 `models.sh`、`balance.sh`。
 
-若直接使用 Python 标准库，有一点需要注意：接口前方的 Cloudflare 会拦截默认的
-`Python-urllib/…` 客户端标识，自行设置 `User-Agent` 即可正常调用；`requests`、
-`httpx` 与 OpenAI SDK 无需改动。
-
 ## 接口概览
 
 接口地址：`https://onomeo.com/v1`

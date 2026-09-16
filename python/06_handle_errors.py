@@ -36,7 +36,6 @@ def ask(question, model="THUDM/GLM-4-9B-0414", attempts=4):
         headers={
             "Authorization": f"Bearer {os.environ['ONOMEO_API_KEY']}",
             "Content-Type": "application/json",
-            # Cloudflare rejects Python's default "Python-urllib/..." user agent.
             "User-Agent": "onomeo-examples/1.0",
         },
     )

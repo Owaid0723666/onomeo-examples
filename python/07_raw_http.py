@@ -24,8 +24,8 @@ request = urllib.request.Request(
     headers={
         "Authorization": f"Bearer {os.environ['ONOMEO_API_KEY']}",
         "Content-Type": "application/json",
-        # Cloudflare in front of the API rejects Python's default
-        # "Python-urllib/..." user agent; any name of your own gets through.
+        # naming your client is good manners, and makes your own requests
+        # easy to spot in a log
         "User-Agent": "onomeo-examples/1.0",
     },
 )

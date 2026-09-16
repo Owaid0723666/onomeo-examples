@@ -10,8 +10,8 @@ import json
 import os
 import urllib.request
 
-# The API sits behind Cloudflare, which rejects Python's default
-# "Python-urllib/..." user agent. Any name of your own gets through.
+# Naming your client in the user agent is good manners and makes your own
+# requests easy to spot in a log.
 request = urllib.request.Request(
     "https://onomeo.com/api/me",
     headers={

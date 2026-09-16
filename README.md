@@ -60,11 +60,6 @@ The same seven examples in each language — `01_hello.py`, `01-hello.mjs`.
 Only four of the seven suit a shell one-liner, so `curl/` has those: `hello.sh`,
 `stream.sh`, `models.sh`, `balance.sh`.
 
-One quirk worth knowing if you use Python's standard library directly: the API
-sits behind Cloudflare, which turns away the default `Python-urllib/…` user
-agent. Send a `User-Agent` of your own and it goes through. `requests`, `httpx`
-and the OpenAI SDK are all fine as they are.
-
 ## The API in one screen
 
 Base URL: `https://onomeo.com/v1`
